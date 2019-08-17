@@ -3,7 +3,6 @@
 废话不多说，先粘贴代码，这个是网上随便找都能找到的，而且也很简单，不解释了（基础教程在网上，都有，原理很简单，就是提交的时候，触发了webhook的钩子，然后调用你服务器的php文件，自动拉取代码）。
 
 ```php
-@requires_authorization
 $local = '/xxx/www/lte'; 
 //获取请求参数
 $request = file_get_contents('php://input');
